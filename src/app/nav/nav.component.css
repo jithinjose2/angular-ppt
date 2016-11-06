@@ -1,0 +1,18 @@
+.nav{
+    height: 100%;
+    background-color: #0054BA;
+    box-shadow: 0px 0px 24px #0054BA;
+}
+
+.nav .list-group-item{
+    height: 100%;
+    background-color: #0054BA;
+    border-radius: 0px;
+    color: white;
+    border:0px;
+    cursor: pointer;
+}
+
+.nav .list-group-item.active{
+    background-color: #B52C2D;
+}

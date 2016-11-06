@@ -1,0 +1,12 @@
+img{
+    position: absolute;
+    left:-15px;
+    width:100%;
+}
+h1{
+    color: white;
+    position: absolute;
+    margin: auto;
+    padding-left: 332px;
+    padding-top: 55px;
+}

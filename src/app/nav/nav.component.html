@@ -1,0 +1,7 @@
+<div class="nav">
+  <ul class="list-group">
+    <li *ngFor="let slide of slides" class="list-group-item pl-5" [routerLink]="slide.routeLink" routerLinkActive="active">
+      {{ slide.name }}
+    </li>
+  </ul>
+</div>
