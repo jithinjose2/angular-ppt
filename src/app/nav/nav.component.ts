@@ -13,7 +13,13 @@ export class NavComponent {
   constructor() {
     this.slides = [
       {name : 'Welcome', routeLink:['welcome']},
-      {name : 'Basics',  routeLink:['basics']}
+      {name : 'Basics',  routeLink:['basics']},
+      {name : 'Structure',  routeLink:['structure']},
+      {name : 'Component',  routeLink:['component']},
+      {name : 'DataBinding',  routeLink:['databinding']},
+      {name : 'Directive',  routeLink:['directive']},
+      {name : 'Routing',  routeLink:['routing']},
+      {name : 'Pipes',  routeLink:['pipes']}
     ];
   }
 

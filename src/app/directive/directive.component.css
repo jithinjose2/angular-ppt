@@ -1,0 +1,21 @@
+.small-ul li{
+    font-size: 20px;
+    line-height: 5px;
+}
+
+code{
+    font-size: 20px;
+}
+
+.example_code{
+    font-size: 14px;
+    line-height: 0px;
+}
+
+.inner_ul{
+    margin-top: 10px;
+}
+.inner_ul li{
+    font-size: 16px ;
+    line-height: 10px;
+}

@@ -4,22 +4,21 @@
   </div>
   <div class="col-md-11">
     <h3>
-      Basics
+      Pipes
     </h3>
   </div>
 </div>
 <div class="row slide-content">
   <div class="col-md-6">
     <ul>
-      <li>Front end Framework for single page application</li>
-      <li>Development can done using TypeScript, Javascript or Dart</li>
-      <li>Cross Platform</li>
-      <li>Speed and Performance</li>
-      <li>Productivity</li>
+      <li>Pipes transform displayed values within a template.</li>
+      <li>It can be used in conjunction with one way binding</li>
     </ul>
   </div>
   <div class="col-md-6">
-    <img src="/assets/images/single_page_app.png"/>
+    <span>{{ birthday | date }}</span><br>
+    <span>{{ birthday | date:fullDate }}</span><br>
+    <span>{{ birthday | date:fullDate | uppercase}}</span>
   </div>
 </div>
 <div class="row slide-footer"></div>

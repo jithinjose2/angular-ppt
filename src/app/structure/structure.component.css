@@ -1,0 +1,25 @@
+.module-structure div{
+    background-color: rgba(128, 128, 128, 0.24);
+    padding: 5px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.module-structure .module{
+    background-color: rgba(128, 128, 128, 0.24);
+}
+
+.skip{
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.vertical-text {
+    height: 149px;
+    word-break: break-all;
+    width: 23px;
+    word-spacing: 3px;
+    line-height: 17px;
+    font-size: 16px;
+    font-weight: bold;
+}

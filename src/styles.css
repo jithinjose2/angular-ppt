@@ -7,3 +7,44 @@ body, html {
 #right {
     height: 100%;
 }
+
+.slide-footer{
+    background-image: url(/assets/images/footer.png);
+    height: 40px;
+    width: 100%;
+    background-position: bottom;
+    background-size: 100% auto;
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.slide-header{
+    background-color: #4285F4;
+    color: white;
+    box-shadow: 7px -1px 24px black;
+    height: 50px;
+    width:120%;
+    left: -15px;
+    position: relative;
+}
+
+.slide-content{
+    padding:50px;
+    font-size: 24px;
+}
+
+.slide-content li{
+    margin-bottom: 10px;
+}
+
+.slide-header img{
+    margin-top: 10px;
+    height:30px;
+}
+
+.slide-header h3{
+    margin-top: 9px;
+    margin-left: 30px;
+}

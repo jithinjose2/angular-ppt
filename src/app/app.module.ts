@@ -8,13 +8,25 @@ import {NavComponent} from "./nav/nav.component";
 import { WelcomeComponent } from './welcome/welcome.component';
 import {routes} from "./app.routes";
 import { BasicsComponent } from './basics/basics.component';
+import { StructureComponent } from './structure/structure.component';
+import { ComponentComponent } from './component/component.component';
+import { DatabindingComponent } from './databinding/databinding.component';
+import { DirectiveComponent } from './directive/directive.component';
+import { RoutingComponent } from './routing/routing.component';
+import { PipeComponent } from './pipe/pipe.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     WelcomeComponent,
-    BasicsComponent
+    BasicsComponent,
+    StructureComponent,
+    ComponentComponent,
+    DatabindingComponent,
+    DirectiveComponent,
+    RoutingComponent,
+    PipeComponent
   ],
   imports: [
     BrowserModule,
