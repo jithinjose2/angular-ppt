@@ -11,14 +11,18 @@
 <div class="row slide-content">
   <div class="col-md-6">
     <ul>
+      <li>Each modules will have it own router</li>
       <li>Similar to laravel routing, but in front end</li>
       <li>Routing map url to a module or a component</li>
       <li>New Angular2 Routing allows to FullPath routing(Other than hash routes)</li>
       <li>Guards act like a middleware</li>
       <li>Child routing allows Lazy loading</li>
     </ul>
+    <a class="btn" [routerLink]="['/routing','page1']" routerLinkActive="btn-primary">Diagram</a>
+    <a class="btn" [routerLink]="['/routing','page2']" routerLinkActive="btn-primary">Code</a>
   </div>
-  <div class="col-md-6">
+  <div class="col-md-6 child_route_container">
+    <router-outlet></router-outlet>
   </div>
 </div>
 <div class="row slide-footer"></div>

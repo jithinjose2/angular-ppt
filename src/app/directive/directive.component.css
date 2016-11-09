@@ -1,6 +1,6 @@
 .small-ul li{
     font-size: 20px;
-    line-height: 5px;
+    line-height:20px;
 }
 
 code{
@@ -17,5 +17,9 @@ code{
 }
 .inner_ul li{
     font-size: 16px ;
-    line-height: 10px;
+    line-height:20px;
+}
+
+hr{
+    clear: both;
 }

@@ -12,7 +12,6 @@ import { StructureComponent } from './structure/structure.component';
 import { ComponentComponent } from './component/component.component';
 import { DatabindingComponent } from './databinding/databinding.component';
 import { DirectiveComponent } from './directive/directive.component';
-import { RoutingComponent } from './routing/routing.component';
 import { PipeComponent } from './pipe/pipe.component';
 import { DebuggingComponent } from './debugging/debugging.component';
 import { DeploymentComponent } from './deployment/deployment.component';
@@ -28,7 +27,6 @@ import { QuestionsComponent } from './questions/questions.component';
     ComponentComponent,
     DatabindingComponent,
     DirectiveComponent,
-    RoutingComponent,
     PipeComponent,
     DebuggingComponent,
     DeploymentComponent,

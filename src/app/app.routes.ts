@@ -18,7 +18,7 @@ export const routes = RouterModule.forRoot([
     { path: 'component', component: ComponentComponent },
     { path: 'databinding', component: DatabindingComponent },
     { path: 'directive', component: DirectiveComponent },
-    { path: 'routing', component: RoutingComponent },
+    { path: 'routing', loadChildren: 'app/routing/routing.module#RoutingModule'},
     { path: 'pipes', component: PipeComponent},
     { path: 'debugging', component: DebuggingComponent},
     { path: 'deployment', component: DeploymentComponent},

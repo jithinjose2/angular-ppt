@@ -9,36 +9,31 @@
   </div>
 </div>
 <div class="row slide-content">
-  <div class="col-md-6">
+
+  <div class="col-md-12">
     <ul>
       <li>Allows dynamic DOM manipullations</li>
       <li>There are list of build in directives</li>
-      <li>
-        <b>ngFor</b>
-        <ul class="inner_ul">
-          <li>Similar for <code>foreach</code> in php</li>
-          <li>Can used for variable or static data</li>
-          <li>Can use array index</li>
-        </ul>
-      </li>
-      <li>
-        <b>ngIf</b>
-        <ul class="inner_ul">
-          <li>When used on an element, the element will be only in DOM if condition is true</li>
-          <li>Accepts value or variable names which resolves to boolean</li>
-          <li>Can use array index</li>
-        </ul>
-      </li>
-      <li>
-        <b>ngClass</b>
-      </li>
-      <li>
-        <b>ngSwitch, ngStyle</b>
-      </li>
     </ul>
   </div>
+
+  <hr>
   <div class="col-md-6">
-    <h3>Code</h3>
+    <b>ngFor</b>
+    <ul class="inner_ul">
+      <li>Similar for <code>foreach</code> in php</li>
+      <li>Can used for variable or static data</li>
+      <li>Can use array index</li>
+    </ul>
+    <b>ngIf</b>
+    <ul class="inner_ul">
+      <li>When used on an element, the element will be only in DOM if condition is true</li>
+      <li>Accepts value or variable names which resolves to boolean</li>
+      <li>Can use array index</li>
+    </ul>
+  </div>
+
+  <div class="col-md-6">
     <img src="/assets/images/fruites_array.png"/>
     <img src="/assets/images/directives_code.png"/>
     <br>
@@ -48,13 +43,19 @@
         <span *ngIf="fruit.price > 0">{{ fruit.price }}</span>
       </li>
     </ul>
-    <br>
+   </div>
+
+  <hr>
+  <div class="col-md-6">
+    <b>ngClass</b>
+    <b>ngSwitch, ngStyle</b>
+  </div>
+  <div class="col-md-6">
     <img src="/assets/images/ng_switch.png"/>
     <div class="alert" [ngClass]="{'alert-danger': alertError}">
       This is an alert
     </div>
     <button (click)="alertError = true">Add alert-error class</button>
-
   </div>
 </div>
 <div class="row slide-footer"></div>
