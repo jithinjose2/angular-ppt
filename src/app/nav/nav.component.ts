@@ -19,7 +19,10 @@ export class NavComponent {
       {name : 'DataBinding',  routeLink:['databinding']},
       {name : 'Directive',  routeLink:['directive']},
       {name : 'Routing',  routeLink:['routing']},
-      {name : 'Pipes',  routeLink:['pipes']}
+      {name : 'Pipes',  routeLink:['pipes']},
+      {name : 'Debugging',  routeLink:['debugging']},
+      {name : 'Deployment',  routeLink:['deployment']},
+      {name : 'Questions',  routeLink:['questions']}
     ];
   }
 

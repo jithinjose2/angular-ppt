@@ -9,16 +9,35 @@
   </div>
 </div>
 <div class="row slide-content">
-  <div class="col-md-6">
+  <div class="col-md-12">
     <ul>
       <li>Pipes transform displayed values within a template.</li>
-      <li>It can be used in conjunction with one way binding</li>
+      <li>It can be used in conjunction with one way binding.</li>
+      <li>It is added using '|' character</li>
+      <li>We can pass parameter to pipe for further customization </li>
+      <li>We can chain multiple pipes, which output of first pipe act as input to the second one</li>
+      <li>Possible to create custom pipes</li>
     </ul>
   </div>
-  <div class="col-md-6">
-    <span>{{ birthday | date }}</span><br>
-    <span>{{ birthday | date:fullDate }}</span><br>
-    <span>{{ birthday | date:fullDate | uppercase}}</span>
+  <div class="col-md-12">
+    <table class="table min-table">
+      <tr>
+        <td><code>birthday = new Date(1991, 1, 2);</code></td>
+        <td><button (click)="setToday()" class="btn btn-primary">Set Date as Today</button></td>
+      </tr>
+      <tr style="width: 50%;">
+        <td rowspan="3"><img src="/assets/images/pipes.png" height="100px"/> </td>
+        <td> {{ birthday | date }} </td>
+      </tr>
+      <tr>
+        <td> {{ birthday | date:'fullDate' }} </td>
+      </tr>
+      <tr>
+        <td>
+          <span>  {{ birthday | date:'fullDate' | uppercase }}   </span>
+        </td>
+      </tr>
+    </table>
   </div>
 </div>
 <div class="row slide-footer"></div>

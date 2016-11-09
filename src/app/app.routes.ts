@@ -7,6 +7,9 @@ import {DatabindingComponent} from "./databinding/databinding.component";
 import {DirectiveComponent} from "./directive/directive.component";
 import {RoutingComponent} from "./routing/routing.component";
 import {PipeComponent} from "./pipe/pipe.component";
+import {DebuggingComponent} from "./debugging/debugging.component";
+import {DeploymentComponent} from "./deployment/deployment.component";
+import {QuestionsComponent} from "./questions/questions.component";
 
 export const routes = RouterModule.forRoot([
     { path: 'welcome', component: WelcomeComponent },
@@ -17,5 +20,8 @@ export const routes = RouterModule.forRoot([
     { path: 'directive', component: DirectiveComponent },
     { path: 'routing', component: RoutingComponent },
     { path: 'pipes', component: PipeComponent},
+    { path: 'debugging', component: DebuggingComponent},
+    { path: 'deployment', component: DeploymentComponent},
+    { path: 'questions', component: QuestionsComponent},
     { path: '', redirectTo: '/welcome', pathMatch: 'full' }
 ]);

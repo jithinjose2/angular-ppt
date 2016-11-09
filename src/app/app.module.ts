@@ -14,6 +14,9 @@ import { DatabindingComponent } from './databinding/databinding.component';
 import { DirectiveComponent } from './directive/directive.component';
 import { RoutingComponent } from './routing/routing.component';
 import { PipeComponent } from './pipe/pipe.component';
+import { DebuggingComponent } from './debugging/debugging.component';
+import { DeploymentComponent } from './deployment/deployment.component';
+import { QuestionsComponent } from './questions/questions.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { PipeComponent } from './pipe/pipe.component';
     DatabindingComponent,
     DirectiveComponent,
     RoutingComponent,
-    PipeComponent
+    PipeComponent,
+    DebuggingComponent,
+    DeploymentComponent,
+    QuestionsComponent
   ],
   imports: [
     BrowserModule,

@@ -9,4 +9,9 @@ export class PipeComponent {
 
   birthday = new Date(1991, 1, 2);
 
+  setToday()
+  {
+    this.birthday = new Date();
+  }
+
 }
