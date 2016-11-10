@@ -19,7 +19,8 @@
         <thead>
         <tr>
           <th>Type</th>
-          <th style="width: 200px">Value</th>
+          <th style="width: 100px">Variable</th>
+          <th style="width: 100px">Value</th>
           <th>Code</th>
           <th style="width: 200px">Output</th>
         </tr>
@@ -32,10 +33,12 @@
           </td>
           <td>
             <b>example1</b>
+          </td>
+          <td>
             {{ example1 }}
           </td>
           <td>
-            <code>
+            <code ngNonBindable>
               {{ example1 }} <br>
               [ngModel] = "example1"
             </code>
@@ -53,6 +56,8 @@
           </td>
           <td>
             <b>example2</b>
+          </td>
+          <td>
             {{ example2 }}
           </td>
           <td>
@@ -71,6 +76,8 @@
           </td>
           <td>
             <b>example3</b>
+          </td>
+          <td>
             {{ example3 }}
           </td>
           <td>
@@ -90,7 +97,7 @@
 
     <ul>
       <li>Angular1 Have Two way binding by default which is removed in angular2</li>
-      <li>Event binding we can bind custom events</li>
+      <li>We can create custom events</li>
     </ul>
 
   </div>

@@ -11,7 +11,7 @@
 <div class="row slide-content">
 
   <div class="col-md-12">
-    <ul>
+    <ul class="inner_ul">
       <li>Allows dynamic DOM manipullations</li>
       <li>There are list of build in directives</li>
     </ul>
@@ -52,10 +52,10 @@
   </div>
   <div class="col-md-6">
     <img src="/assets/images/ng_switch.png"/>
-    <div class="alert" [ngClass]="{'alert-danger': alertError}">
+    <div class="alert" [ngClass]="{'alert-danger': alertError}" style="width: 200px;float: left;">
       This is an alert
-    </div>
-    <button (click)="alertError = true">Add alert-error class</button>
+    </div>&nbsp;&nbsp;&nbsp;&nbsp;
+    <button (click)="alertError = true" class="btn btn-primary">Add alert-error class</button>
   </div>
 </div>
 <div class="row slide-footer"></div>
